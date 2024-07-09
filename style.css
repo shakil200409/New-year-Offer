@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +6,13 @@
 }
 
 /* Banner Styles Starts here */
+header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .banner{
     height: 600px;
     width: 1320px;
@@ -20,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 .banner #banner-heading{
     font-size: 72px;
@@ -35,3 +41,41 @@
 
 /* Banner Styles End here  */
 
+/* Body part Styles Starts here  */
+.content-area{
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+}
+.first-section{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+#content-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 20px;
+}
+#content-subtitle{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding: 10px;
+}
+.content-last-title{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+padding: 10px;
+}
+.content-img{
+    margin: 25px;
+}
+/* Body part Styles Ends here  */
