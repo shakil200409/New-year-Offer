@@ -79,7 +79,7 @@ header {
   margin: 25px;
 }
 
-/* Welcome to midnight party */
+/* Welcome to midnight party / Second Section*/
 .second-section {
   width: 95%;
   height: 540px;
@@ -160,5 +160,83 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin: 15px;
+}
+
+/* New Best Offer/ Fourth Section */
+.new-best-offer{
+  width: 95%;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+}
+.best-offer-text{
+  text-align: left;
+  width: 40%;
+}
+.best-offer-text h5{
+  color: red;
+  font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin: 10px;
+}
+.best-offer-text h3{
+  font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin: 10px;
+}
+.best-offer-text p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+color: rgba(7, 2, 17, 0.6);
+margin: 10px;
+}
+.best-offer-img{
+  width: 463px;
+height: 463px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.best-offer-img img{
+  width: 100%;
+  border: 10px solid red;
+border-radius: 50%;
+padding: 7%;
+  
+}
+.best-offer-newYear{
+  width: 35%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  margin-top: 50px;
+}
+.best-offer-newYear h3{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.best-offer-newYear p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+text-align: start;
+}
+.best-offer-newYear img{
+  width: 140px;
+  height: 140px;
 }
 /* Body part Styles Ends here  */
